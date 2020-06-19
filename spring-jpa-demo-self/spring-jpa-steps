@@ -1,0 +1,15 @@
+Contains the steps
+
+Step-1
+Declare the bean class as entity as it will be created as table
+
+Step-2
+use @Id annotation to declare the primary key
+
+Declare the function as findByXXX in the interface that extends CrudRepository
+
+For writing your own customized query 
+use annotation as:
+@Query(value="your sql query")
+then the function 
+refer file SPRING-JPA-MYSQL
